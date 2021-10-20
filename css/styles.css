@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__container{
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    height: 88px;
+}
+.select__container{
+    align-items: flex-start;
+}
+.select__container > p{
+    margin-right: 15px;
+}
+.select__container > select{
+    margin-right: 5px;
+}
+
+.container__grid{
+    background-color: #333;
+    height: calc(100vh - 88px);
+    justify-content: center;
+    align-items: center;
+}
+.container__grid #grid{
+    height: 500px;
+    width: 500px;
+    border: 1px solid #fff;
+    flex-wrap: wrap;
+}
+.cella{
+    width: 10%;
+    height: 10%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cella--selezionata{
+    background-color:brown;
+}
+
+/*********************************************************
+Utilities
+*********************************************************/
+.container{
+    width: 1200px;
+}
+.d-flex{
+    display: flex;
+}
