@@ -42,7 +42,10 @@
     color: white;
 }
 .cella--selezionata{
-    background-color:brown;
+    background-color:green;
+}
+.cella--bomba{
+    background-color: brown;
 }
 
 /*********************************************************
